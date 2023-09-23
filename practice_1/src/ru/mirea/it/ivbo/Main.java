@@ -3,133 +3,38 @@ package ru.mirea.it.ivbo;
 import java.util.Scanner;
 
 public class Main {
-    /*
-    //3 пункт
-    public static void main(String[] args)
-    {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите размер массива: ");
-        int size = scanner.nextInt();
-        int[] numbers = new int[size];
+    public static void main(String[] args) {
+        Scanner myscanner = new Scanner(System.in);
+        int ch;
+        System.out.println("Практическая работа №1\n\n0 - выход\n1-5 - номер работы\n");
 
-        System.out.println("Введите элементы массива:");
-        for (int i = 0; i < size; i++)
-        {
-            numbers[i] = scanner.nextInt();
-        }
-
-        int sum = 0;
-        for (int i = 0; i < size; i++)
-        {
-            sum += numbers[i];
-        }
-
-        double average = (double) sum / size;
-
-        System.out.println("Сумма элементов массива: " + sum);
-        System.out.println("Среднее арифметическое элементов массива: " + average);
-    }
-     */
-
-    /*
-    //4 пункт
-    public static void main(String[] args)
-    {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите размер массива: ");
-        int size = scanner.nextInt();
-        int[] numbers = new int[size];
-
-        System.out.println("Введите элементы массива:");
-        int i = 0;
-        do
-        {
-            numbers[i] = scanner.nextInt();
-            i++;
-        } while (i < size);
-
-        int sum = 0;
-        i = 0;
-        while (i < size)
-        {
-            sum += numbers[i];
-            i++;
-        }
-
-        int max = numbers[0];
-        int min = numbers[0];
-        i = 1;
-        while (i < size)
-        {
-            if (numbers[i] > max)
-            {
-                max = numbers[i];
+        while (true) {
+            System.out.print("Введите команду: ");
+            ch = myscanner.nextInt();
+            switch (ch) {
+                case (0):
+                    return;
+                case (1):
+                    System.out.println("Открыт пункт №3");
+                    Part_3 p3 = new Part_3();
+                    break;
+                case (2):
+                    System.out.println("Открыт пункт №4");
+                    Part_4 p4 = new Part_4();
+                    break;
+                case (3):
+                    System.out.println("Открыт пункт №5");
+                    Part_5 p5 = new Part_5(args);
+                    break;
+                case (4):
+                    System.out.println("Открыт пункт №6");
+                    Part_6 p6 = new Part_6();
+                    break;
+                case (5):
+                    System.out.println("Открыт пункт №7");
+                    Part_7 p7 = new Part_7();
+                    break;
             }
-            if (numbers[i] < min)
-            {
-                min = numbers[i];
-            }
-            i++;
-        }
-
-        System.out.println("Сумма элементов массива: " + sum);
-        System.out.println("Максимальный элемент массива: " + max);
-        System.out.println("Минимальный элемент массива: " + min);
-    }
-     */
-
-    /*
-    //5 пункт
-    public static void main(String[] args)
-    {
-        // Используем цикл for для перебора всех аргументов командной строки
-        for (int i = 0; i < args.length; i++)
-        {
-            System.out.println("Аргумент " + (i + 1) + ": " + args[i]);
         }
     }
-     */
-
-    /*
-    //6 пункт
-    public static void main(String[] args)
-    {
-        System.out.println("Первые 10 чисел гармонического ряда:");
-        for (int i = 1; i <= 10; i++)
-        {
-            double harmonicNumber = harmonicNum(i);
-            System.out.printf("Число %d: %.5f%n", i, harmonicNumber);
-        }
-    }
-
-    private static double harmonicNum(int n)
-    {
-        double sum = 0;
-        for (int i = 1; i <= n; i++)
-        {
-            sum += 1.0 / i;
-        }
-        return sum;
-    }
-     */
-
-    /*
-    //7 пункт
-    public static void main(String[] args)
-    {
-        int number = 5;
-        long factorial = factorial(number);
-        System.out.println("Факториал числа " + number + " равен " + factorial);
-    }
-
-    private static long factorial(int n)
-    {
-        long factorial = 1;
-        for (int i = 1; i <= n; i++)
-        {
-            factorial *= i;
-        }
-        return factorial;
-    }
-    */
 }
