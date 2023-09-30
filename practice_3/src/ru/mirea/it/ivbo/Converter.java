@@ -8,7 +8,8 @@ public class Converter {
     private double usdToRub = 97.41;
     private double eurToRub = 103.16;
 
-    public double rubToUsd(double rub) {
+    public double rubToUsd(double rub)
+    {
         return rub / usdToRub;
     }
 
@@ -24,17 +25,20 @@ public class Converter {
         return eur * eurToRub;
     }
 
-    public String formatRU(double num){
+    public String formatRU(double num)
+    {
         NumberFormat numberFormat = NumberFormat.getCurrencyInstance();
         return numberFormat.format(num);
     }
 
-    public String formatUS(double num){
+    public String formatUS(double num)
+    {
         NumberFormat numberFormat = NumberFormat.getCurrencyInstance(Locale.US);
         return numberFormat.format(num);
     }
 
-    public String formatEU(double num){
+    public String formatEU(double num)
+    {
         NumberFormat numberFormat = NumberFormat.getCurrencyInstance(Locale.FRANCE);
         return numberFormat.format(num);
     }
@@ -43,7 +47,7 @@ public class Converter {
 
         double rubles = 1000.0;
         double dollars = rubToUsd(rubles);
-        double euros = rubToEur(rubles);
+        double euros;
 
         System.out.println(formatRU(rubles) + " = " + formatUS(dollars));
 
