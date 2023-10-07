@@ -2,9 +2,15 @@ package ru.mirea.it.ivbo;
 
 public class Seasons
 {
-    enum Season {
+    enum Season
+    {
         SPRING("Весна", 15),
-        SUMMER("Лето", 30),
+        SUMMER("Лето", 30) {
+            @Override
+            public String getDescription() {
+                return "Теплое время года";
+            }
+        },
         AUTUMN("Осень", 10),
         WINTER("Зима", -15);
 
@@ -27,14 +33,9 @@ public class Seasons
             return averageTemperature;
         }
 
-
         public String getDescription()
         {
-            if (this == SUMMER) {
-                return "Теплое время года";
-            } else {
                 return "Холодное время года";
-            }
         }
     }
 
@@ -52,7 +53,8 @@ public class Seasons
         printSeasonInfo(Season.WINTER);
     }
 
-    public static void printSeasonInfo(Season season) {
+    public static void printSeasonInfo(Season season)
+    {
         switch (season) {
             case SPRING:
                 System.out.println("Время года: Весна");
