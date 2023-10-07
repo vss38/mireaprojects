@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43fc8577-0067-4f8e-baed-be5d09286069" name="Changes" comment="Practice #3(1)">
-      <change afterPath="$PROJECT_DIR$/practice_4.1/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_4.1/src/ru/mirea/it/ivbo/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_4.1/src/ru/mirea/it/ivbo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_4/practice_4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_4/src/ru/mirea/it/ivbo/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_4/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_4/src/ru/mirea/it/ivbo/Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_4/src/ru/mirea/it/ivbo/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_4/src/ru/mirea/it/ivbo/Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_4/src/ru/mirea/it/ivbo/Seasons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="43fc8577-0067-4f8e-baed-be5d09286069" name="Changes" comment="Practice #4">
+      <change beforePath="$PROJECT_DIR$/practice_4.1/src/ru/mirea/it/ivbo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_4.1/src/ru/mirea/it/ivbo/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_4.1/src/ru/mirea/it/ivbo/Person.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +48,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-20",
-    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/mireaprojects/practice_4.1/src/Main.java",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/mireaprojects/practice_4_1",
+    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/mireaprojects/practice_4_1/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -184,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696061835144</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Practice #4">
+      <created>1696662038267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696662038267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +202,8 @@
     <MESSAGE value="Practice #1 (1)" />
     <MESSAGE value="Practice #2, #3" />
     <MESSAGE value="Practice #3(1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice #3(1)" />
+    <MESSAGE value="Practice #4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice #4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,6 +222,11 @@
           <url>file://$PROJECT_DIR$/practice_3/src/ru/mirea/it/ivbo/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/practice_4_1/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
