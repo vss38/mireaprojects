@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43fc8577-0067-4f8e-baed-be5d09286069" name="Changes" comment="Practice #4(1)">
+    <list default="true" id="43fc8577-0067-4f8e-baed-be5d09286069" name="Changes" comment="Practice #4(2)">
+      <change afterPath="$PROJECT_DIR$/practice_5/src/ru/mirea/it/ivbo/FootballMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_5/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_5/src/ru/mirea/it/ivbo/Part_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice_4/src/ru/mirea/it/ivbo/Seasons.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_4/src/ru/mirea/it/ivbo/Seasons.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-20",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/mireaprojects/practice_4_1",
-    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/mireaprojects/practice_4_1/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/mireaprojects/practice_4_1&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/IdeaProjects/mireaprojects/practice_5/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\mireaprojects\practice_4_1" />
@@ -65,20 +68,7 @@
       <recent name="ru.mirea.it.ivbo.n3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
-      <module name="practice_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mirea.it.ivbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
       <module name="practice_3" />
@@ -130,13 +120,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
+      <module name="practice_5" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\user\IdeaProjects\mireaprojects\practice_5\src\ru\mirea\it\ivbo\6(1).PNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mirea.it.ivbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696662421902</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Practice #4(2)">
+      <created>1696667689011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696667689011</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +237,8 @@
     <MESSAGE value="Practice #3(1)" />
     <MESSAGE value="Practice #4" />
     <MESSAGE value="Practice #4(1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice #4(1)" />
+    <MESSAGE value="Practice #4(2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice #4(2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
