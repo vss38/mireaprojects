@@ -24,9 +24,7 @@ class Magazine implements Printable
     {
         for (Printable p : printable) {
             if (p instanceof Magazine)
-            {
                 p.print();
-            }
         }
     }
 }
@@ -50,10 +48,7 @@ class Book implements Printable
     {
         for (Printable p : printable) {
             if (p instanceof Book)
-            {
-                Book book = (Book) p;
-                book.print();
-            }
+                p.print();
         }
     }
 }
