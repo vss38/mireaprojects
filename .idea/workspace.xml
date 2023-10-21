@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43fc8577-0067-4f8e-baed-be5d09286069" name="Changes" comment="Practice #4(2)">
-      <change afterPath="$PROJECT_DIR$/practice_5/src/ru/mirea/it/ivbo/FootballMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_5/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_5/src/ru/mirea/it/ivbo/Part_4.java" afterDir="false" />
+    <list default="true" id="43fc8577-0067-4f8e-baed-be5d09286069" name="Changes" comment="Practice #5">
+      <change afterPath="$PROJECT_DIR$/practice_6/practice_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_6/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_6/src/ru/mirea/it/ivbo/Nameable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_6/src/ru/mirea/it/ivbo/Priceable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_6/src/ru/mirea/it/ivbo/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_7/practice_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_7/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_7/src/ru/mirea/it/ivbo/MathCalculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_7/src/ru/mirea/it/ivbo/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_7/src/ru/mirea/it/ivbo/StringManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_8/practice_8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_8/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_8/src/ru/mirea/it/ivbo/Part_14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_8/src/ru/mirea/it/ivbo/Part_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_8/src/ru/mirea/it/ivbo/Part_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_8/src/ru/mirea/it/ivbo/Part_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_9/practice_9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_9/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -19,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,18 +61,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/mireaprojects/practice_4_1&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/IdeaProjects/mireaprojects/practice_5/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/mireaprojects/practice_4_1",
+    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/mireaprojects/practice_9/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\mireaprojects\practice_4_1" />
@@ -68,10 +84,10 @@
       <recent name="ru.mirea.it.ivbo.n3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.8">
+    <configuration name="6" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
-      <module name="practice_3" />
+      <module name="practice_6" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.mirea.it.ivbo.*" />
@@ -82,72 +98,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="7" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
-      <module name="practice_4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mirea.it.ivbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <module name="practice_7" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mirea.it.ivbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="8" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
-      <module name="practice_4_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mirea.it.ivbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
-      <module name="practice_5" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\user\IdeaProjects\mireaprojects\practice_5\src\ru\mirea\it\ivbo\6(1).PNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mirea.it.ivbo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <module name="practice_8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.6" />
+      <item itemvalue="Application.7" />
+      <item itemvalue="Application.8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.6" />
+        <item itemvalue="Application.6" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696667689011</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Practice #5">
+      <created>1697266630539</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697266630539</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +218,8 @@
     <MESSAGE value="Practice #4" />
     <MESSAGE value="Practice #4(1)" />
     <MESSAGE value="Practice #4(2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice #4(2)" />
+    <MESSAGE value="Practice #5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice #5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
