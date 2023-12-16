@@ -4,25 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43fc8577-0067-4f8e-baed-be5d09286069" name="Changes" comment="Practice #9-14">
-      <change afterPath="$PROJECT_DIR$/practice_15/practice_15.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_15/src/ru/mirea/it/ivbo/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_15/src/ru/mirea/it/ivbo/Calculator2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_15/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_16/practice_16.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_16/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_16/src/ru/mirea/it/ivbo/PasswordChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_16/src/ru/mirea/it/ivbo/TextEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_17/practice_17.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_17/src/ru/mirea/it/ivbo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_17/src/ru/mirea/it/ivbo/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_17/src/ru/mirea/it/ivbo/EmployeeView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_17/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
+    <list default="true" id="43fc8577-0067-4f8e-baed-be5d09286069" name="Changes" comment="Practice #15-17">
+      <change afterPath="$PROJECT_DIR$/practice_18/practice_18.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/practice_18/src/ru/mirea/it/ivbo/Exception1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/practice_18/src/ru/mirea/it/ivbo/Exception2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/practice_18/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/practice_18/src/ru/mirea/it/ivbo/ThrowsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_18/src/ru/mirea/it/ivbo/ThrowsDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_19/practice_19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_19/src/ru/mirea/it/ivbo/InvalidINNException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_19/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_19/src/ru/mirea/it/ivbo/OnlinePurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_20/practice_20.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_20/src/ru/mirea/it/ivbo/GenericParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice_20/src/ru/mirea/it/ivbo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,28 +80,7 @@
       <recent name="ru.mirea.it.ivbo.n3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.17">
-    <configuration name="15" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
-      <module name="practice_15" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="16" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
-      <module name="practice_16" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="17" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
-      <module name="practice_17" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.20">
     <configuration name="18" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
       <module name="practice_18" />
@@ -114,11 +88,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="19" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
+      <module name="practice_19" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="20" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.it.ivbo.Main" />
+      <module name="practice_20" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.15" />
-      <item itemvalue="Application.16" />
-      <item itemvalue="Application.17" />
       <item itemvalue="Application.18" />
+      <item itemvalue="Application.19" />
+      <item itemvalue="Application.20" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -214,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700903901558</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Practice #15-17">
+      <created>1702109686444</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702109686444</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +234,8 @@
     <MESSAGE value="Practice #(6-8)" />
     <MESSAGE value="Practice #7 (1)" />
     <MESSAGE value="Practice #9-14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice #9-14" />
+    <MESSAGE value="Practice #15-17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice #15-17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
